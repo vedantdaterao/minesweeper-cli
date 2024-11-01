@@ -1,2 +1,2 @@
-# arteries
+# archaic
 temporary project files
