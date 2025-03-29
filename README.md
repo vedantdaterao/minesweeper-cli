@@ -6,5 +6,6 @@ where players uncover cells on a grid while avoiding hidden mines using logic-ba
 ```bash
 git clone https://github.com/vedantdaterao/minesweeper-cli
 cd minesweeper-cli
+pip install -r requirements.txt
 python3 minesweeper.py
 ```
