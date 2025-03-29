@@ -22,7 +22,7 @@ def setMines(num: int):
         mine = generateMine()
         mines.append(mine) 
     for i in mines:
-        print(i)
+        #print(i)
         matrix[i[0]][i[1]] ='💣'
 
 #--------------------------------------|
@@ -154,6 +154,9 @@ while True:
         
         try:
             x, y = map(int, coordinates.split(','))
+            if x & y > 8:
+                print("Invalid")
+                continue
             print(f"coordinates: ({x}, {y})")
             choose([x,y])
             printMatrix()
